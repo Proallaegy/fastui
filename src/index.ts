@@ -1,9 +1,7 @@
-import FastUI from "./core/FastUI";
-import FastContainer from "./containers/FastContainer";
-import FlexContainer from "./containers/FlexContainer";
-import { Alignment } from "./enums/Alignment";
-import { Fonts } from "./enums/Fonts";
-import Image from "./elements/Image";
-import Text from "./elements/Text";
-
-export { FastUI, FastContainer, FlexContainer, Alignment, Fonts, Image, Text };
+export { default as FastUI } from "./core/FastUI";
+export { default as FastContainer } from "./containers/FastContainer";
+export { default as FlexContainer } from "./containers/FlexContainer";
+export * from "./enums/Alignment";
+export * from "./enums/Fonts";
+export { default as Image } from "./elements/Image";
+export { default as Text } from "./elements/Text";

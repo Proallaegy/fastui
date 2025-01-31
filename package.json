@@ -1,7 +1,8 @@
 {
   "name": "@botzfast/fastui",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "module": "src/index.ts",
+  "main": "./src/index.js",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
